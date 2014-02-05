@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+body 
+{
+	background-color: #e2e8f9;
+	color: #000000;
+	font-size: 16px;
+	font-family: Oswald;
+	margin: auto;
+	padding: 0;
+}
+header
+{
+	background-color: #f99ff6;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	list-style: none;
+	display: block;
+	font-size: 2em;
+	margin: .3em 0;
+	text-align: center;
+}
+nav ul li a
+{
+	background-color: #9f89f2;
+	border-color: red;
+	border-radius: .5em 0;
+	border-width: .1em;
+	border-top-width: 10px;
+	color: black;
+	padding: 0 .5em 0 .5em;
+}
+#cabezal
+{
+	background-color: #f2c9ec;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+}
+#cabezal ul
+{
+	margin: 0;
+	padding: 0;
+}
+#cabezal ul li
+{
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+}
+#cabezal ul li a
+{
+	background-color: #9f89f2;
+	color: #000000;
+	font-size: 1.5em;
+	margin: auto;
+	padding: 0 1em;
+}
+#dudas
+{
+	background-color: #f2c9ec;
+	text-align: center;
+}
+#dudas #nombre
+{
+	font-size: 2em;
+}
+#principal
+{
+	background-color: rgba(159, 137, 242, .3);
+	margin: auto;
+	padding: 0;
+	font-family: 'Dancing Script', cursive;
+	font-size: 5em;
+	text-align: center;
+}
+#subtitulo
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	margin: auto;
+	text-align: center;
+}
