@@ -8,6 +8,7 @@ body
 	font-family: Oswald;
 	margin: auto;
 	padding: 0;
+	width: 100%;
 }
 footer
 {
@@ -33,15 +34,15 @@ nav ul li
 {
 	list-style: none;
 	display: inline-block;
-	font-size: 1em;
-	margin: .3em 0;
+	font-size: 1.5em;
+	margin: .1em 0;
 	text-align: center;
 }
 nav ul li a
 {
 	background-color: #9f89f2;
 	border-color: red;
-	border-radius: .5em 0;
+	border-radius: .3em 0;
 	border-width: .1em;
 	border-top-width: 10px;
 	color: black;
@@ -69,7 +70,7 @@ nav ul li a
 {
 	background-color: #9f89f2;
 	color: #000000;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin: auto;
 	padding: 0 1em;
 }
@@ -77,27 +78,32 @@ nav ul li a
 {
 	background-color: #f58af1;
 	text-align: center;
-	padding: 1em 0 0 0;
+	padding: .3em 0 0 0;
+}
+#dudas #nombre
+{
+	background-color: #fff;
+	vertical-align: middle;
 }
 #dudas #nombre,#email
 {
 	border-radius: .5em;
 	border: 2px solid;
 	border-color: gray;
-	font-size: 1.5em;
-	height: 50px;
+	font-size: 1em;
+	height: 40px;
 	margin: .4em 0;
-	display: inline-block;
-	
-	width: 400px;
+	display: inline-block;	
+	width: 85%;
 }
 #dudas #submit
 {
 	background-color: #e73664;
 	border: 1px solid;
-	font-size: 2em;
+	font-size: 1.3em;
 	display: inline-block;
 	margin: 0 0 .2em 0;
+	padding: 0 0.3em 0;
 }
 #mensaje
 {
@@ -110,7 +116,7 @@ nav ul li a
 {
 	color: #000;
 	font-family: 'Dancing Script', cursive;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	margin: auto;
 	padding: 0;
 	text-align: center;
@@ -134,7 +140,7 @@ nav ul li a
 	margin: auto;
 	padding: 0;
 	font-family: 'Dancing Script', cursive;
-	font-size: 5em;
+	font-size: 4.5em;
 	text-align: center;
 }
 #quienes
