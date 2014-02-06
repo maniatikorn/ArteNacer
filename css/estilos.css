@@ -15,11 +15,16 @@ header
 	margin: 0;
 	padding: 0;
 }
+nav
+{
+	margin: 0;
+	padding: 0;
+}
 nav ul li
 {
 	list-style: none;
-	display: block;
-	font-size: 2em;
+	display: inline-block;
+	font-size: 1em;
 	margin: .3em 0;
 	text-align: center;
 }
@@ -64,9 +69,24 @@ nav ul li a
 	background-color: #f2c9ec;
 	text-align: center;
 }
-#dudas #nombre
+#dudas #nombre,#email
 {
+	border-radius: .5em;
+	border: 2px solid;
+	border-color: gray;
+	font-size: 1.5em;
+	height: 50px;
+	margin: .4em 0;
+	display: inline-block;
+	
+	width: 400px;
+}
+#dudas #submit
+{
+	background-color: #9f89f2;
+	border: 1px solid;
 	font-size: 2em;
+	display: inline-block;
 }
 #principal
 {
