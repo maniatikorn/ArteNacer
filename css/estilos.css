@@ -21,12 +21,17 @@ h2
 }
 header
 {
+	background-image: url("../images/mb.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	background-color: #f58af1;
 	margin: 0;
 	padding: 0;
 }
 nav
 {
+	/*background-color: #9f89f2;*/
+	display: inline-block;
 	margin: 0;
 	padding: 0;
 }
@@ -35,7 +40,7 @@ nav ul li
 	list-style: none;
 	display: inline-block;
 	font-size: 1.5em;
-	margin: .1em 0;
+	margin: 0em 0;
 	text-align: center;
 }
 nav ul li a
@@ -46,7 +51,7 @@ nav ul li a
 	border-width: .1em;
 	border-top-width: 10px;
 	color: black;
-	padding: 0 .5em 0 .5em;
+	padding: auto;
 }
 #cabezal
 {
@@ -103,7 +108,16 @@ nav ul li a
 	font-size: 1.3em;
 	display: inline-block;
 	margin: 0 0 .2em 0;
-	padding: 0 0.3em 0;
+	padding: 0 0.5em 0;
+}
+#especialistas
+{
+	background-color: #9f89f2;
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+
 }
 #mensaje
 {
@@ -136,7 +150,7 @@ nav ul li a
 }
 #principal
 {
-	background-color: rgba(159, 137, 242, .3);
+	background-color: rgba(159, 137, 242, .5);	
 	margin: auto;
 	padding: 0;
 	font-family: 'Dancing Script', cursive;
@@ -157,4 +171,13 @@ nav ul li a
 	font-size: 2em;
 	margin: auto;
 	text-align: center;
+}
+.circulo
+{
+	border: 2px solid white;
+	margin: 0;
+	padding: 0;
+	border-radius: 1000px;
+	overflow: hidden;
+	width: 110px;
 }
