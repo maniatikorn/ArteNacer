@@ -13,6 +13,7 @@ body
 footer
 {
 	background-color: #f58af1;
+	font-size: .8em;
 	text-align: center;
 }
 h2
@@ -30,28 +31,28 @@ header
 }
 nav
 {
-	/*background-color: #9f89f2;*/
+	display: inline-block;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+nav ul
+{
 	display: inline-block;
 	margin: 0;
-	padding: 0;
+	padding: 0;	
 }
 nav ul li
 {
-	list-style: none;
 	display: inline-block;
-	font-size: 1.5em;
-	margin: 0em 0;
-	text-align: center;
+	list-style: none;	
+	font-size: 1.5em;	
 }
 nav ul li a
 {
 	background-color: #9f89f2;
-	border-color: red;
 	border-radius: .3em 0;
-	border-width: .1em;
-	border-top-width: 10px;
 	color: black;
-	padding: auto;
 }
 #cabezal
 {
@@ -75,9 +76,9 @@ nav ul li a
 {
 	background-color: #9f89f2;
 	color: #000000;
-	font-size: 1.3em;
-	margin: auto;
-	padding: 0 1em;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0em 1em;
 }
 #dudas
 {
@@ -117,6 +118,7 @@ nav ul li a
 	margin: auto;
 	padding: 0;
 	text-align: center;
+	width: 100%;
 
 }
 #mensaje
@@ -125,6 +127,7 @@ nav ul li a
 	display: inline-block;
 	padding: .4em 0;
 	margin: 0;
+	width: 100%;
 }
 #mensaje #mensaje1
 {
@@ -150,8 +153,9 @@ nav ul li a
 }
 #principal
 {
-	background-color: rgba(159, 137, 242, .5);	
-	margin: auto;
+	background-color: rgba(159, 137, 242, .5);
+	/*border: red solid;*/	
+	margin: 0;
 	padding: 0;
 	font-family: 'Dancing Script', cursive;
 	font-size: 4.5em;
@@ -167,9 +171,11 @@ nav ul li a
 }
 #subtitulo
 {
+	background-color: rgba(159, 137, 242, .8);
+	color: #fff;
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
-	margin: auto;
+	margin: 0;
 	text-align: center;
 }
 .circulo
