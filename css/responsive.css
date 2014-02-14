@@ -2,21 +2,28 @@
 {
 	body
 	{
-		font-size: 15px;
+		background-color: #f2c9ec;
+		font-size: 16px;
 	}
 	header
 	{
 		height: 350px;
 	}
+	nav
+	{
+		background-color: #f2c9ec;
+	}
 	#dudas
 	{
+		background-color: #f2c9ec;
 		float: left;
 		width: 50%;
 	}
 	#mensaje
 	{
+		background-color: #f2c9ec;
 		float: right;
-		height: auto;
+		/*height: auto;*/
 		width: 50%;
 	}
 	#principal
@@ -39,5 +46,28 @@
 		background-color: gray;
 		font-size: 16px;
 		max-width: 1200px;
+	}
+	nav
+	{
+		background-color: #f2c9ec;
+	}
+	#dudas
+	{
+		background-color: #9f89f2;
+		height: 200px;
+		width: 50%;
+
+	}
+	#dudas #nombre,#email
+	{
+		margin: .2em;
+		/*padding: .5em 0;*/
+		width: 50%;
+	}
+	#mensaje
+	{
+		background-color: #9f89f2;
+		height: 191px;
+		width: 50%;
 	}
 }
